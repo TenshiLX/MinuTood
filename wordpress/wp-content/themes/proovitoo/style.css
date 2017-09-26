@@ -1,0 +1,165 @@
+/*
+Theme Name: Proovitöö
+Author: Mark Ohlau
+Version: 1.0
+*/
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color: #333;
+}
+
+a:link,
+a:visited {
+	color: #006ec3;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+/* General Layout */
+div.container {
+	max-width: 1024px;
+	margin: 0 auto;
+	padding-left: 20px;
+	padding-right: 20px;
+	background-color:#FFF;
+}
+
+article.post {
+	border-bottom: 2px dotted #bbbbbb;
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
+
+
+/* Header */
+.site-header {
+	background-color: #e2e2e2;
+}
+
+/* Search */
+div.hd-search {
+	position: absolute;
+    top: 8%;
+    left: 50%;
+    height: 60px;
+}
+
+/* Top-right Language + Button */
+.chw-widget {
+	float:right;
+	margin: 0 60px 0 0;
+
+}
+
+.chw-widget a:link,
+.chw-widget a:visited,
+.chw-widget a:hover,
+.chw-widget a:active { 
+ text-decoration: none;
+ color:#000000;
+}
+
+
+/* Telephone number */
+
+.custom-header-widget-telephone {
+	position:absolute;
+	left:60%;
+	top:7.5%;
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 20px;
+	opacity: 0.6;
+
+}
+
+/* Navigation Menus */
+.site-nav ul {
+	margin: 0;
+	text-align:center;
+}
+
+.site-nav ul:before, .site-nav ul:after { content: ""; display: table; }
+.site-nav ul:after { clear: both; }
+.site-nav ul { *zoom: 1; }
+.site-nav ul li {
+	list-style: none;
+	float:left;
+}
+
+/* Site header Menu*/
+.site-header nav {
+	background-color: #bcbaba;
+}
+.site-header nav ul li {
+	margin-right: 5px;
+}
+
+.site-header nav ul li a:link,
+.site-header nav ul li a:visited {
+	display: block;
+	padding: 10px 18px;
+	margin-left: 15px;
+	border-bottom: none;
+	text-decoration: none;
+	color: black;
+	font-weight:bold;
+
+}
+
+.site-header nav ul li a:hover {
+	background-color: #ECECEC;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited {
+	background-color: #006ec3;
+	color: #FFF;
+}
+
+/* Footer */
+.site-footer{
+	background-color: #ECECEC;
+
+}
+
+
+/* Footer Widget Area*/
+.footer-widget-area1,
+.footer-widget-area2,
+.footer-widget-area3 {
+	width: 33.33%;
+	float: left;
+	padding-right: 40px;
+	box-sizing: border-box;
+	text-align:left;
+	line-height: 150%;
+}
+
+#menu-footer-menu {
+	padding:0;
+
+}
+
+.widgettitle {
+	margin:0;
+}
+
+.footer-widget-area2 a:link,
+.footer-widget-area2 a:visited,
+.footer-widget-area2 a:active
+ {
+	text-decoration: none;
+	color: #000;
+}
+
+.widget-item2 li {
+	text-decoration: none;
+	list-style-type: none;
+}
